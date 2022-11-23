@@ -36,7 +36,7 @@ public class PlayerController : MonoBehaviour {
             transform.localScale = new Vector3(key, 1, 1);
         }
 
-        this.animator.speed = speedx / 2.0f;
+        this.animator.speed = speedx / 2.0f; //스피드 추가
      }
   }
         
