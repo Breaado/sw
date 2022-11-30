@@ -6,7 +6,7 @@ public class CameraController : MonoBehavior {
     GameObject player;
   
     void Start() {
-        this player = GameObject.Find("cat");
+        this player = GameObject.Find("idle 0");
     }
 
     void Update() {
