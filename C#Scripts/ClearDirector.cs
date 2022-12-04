@@ -1,10 +1,17 @@
-using UnityEngine;
-using System.Collections;
 using UnityEngine.SceneManagement;
+using System.Collections.Generic;
+using UnityEngine;
 
-public class ClearDirector : MonoBehaviour {
-    void Update() {
-        if(Input.GetMouseButtonDown(0)) {
+public class ClearDirector : MonoBehaviour
+{
+    // Start is called before the first frame update
+
+
+    // Update is called once per frame
+    void Update()
+    {
+        if(Input.GetMouseButtonDown(0))
+        {
             SceneManager.LoadScene("GameScene");
         }
     }
